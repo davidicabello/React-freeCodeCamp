@@ -1,10 +1,5 @@
 import "./App.css";
 import Testimonio from "./components/Testimonio.jsx";
-// import {
-//   testimonioDataOne,
-//   testimonioDataTwo,
-//   testimonioDataThree,
-// } from "./components/TestimoniosData.jsx";
 import { testimonios } from "./testimonios";
 function App() {
   return (
@@ -21,9 +16,6 @@ function App() {
             testimonio={testimonios.testimonio}
           />
         ))}
-        {/* <Testimonio {...testimonioDataOne} />
-        <Testimonio {...testimonioDataTwo} />
-        <Testimonio {...testimonioDataThree} /> */}
       </div>
     </div>
   );
