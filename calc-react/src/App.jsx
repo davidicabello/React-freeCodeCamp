@@ -11,7 +11,11 @@ function App() {
     setInput(input + val);
   };
   const calcularReultado = () => {
-    setInput(evaluate(input));
+    if (input) {
+      setInput(evaluate(input));
+    } else {
+      alert("Por favor ingresa numero");
+    }
   };
   return (
     <div className="App">
