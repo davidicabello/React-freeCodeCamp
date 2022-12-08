@@ -1,11 +1,12 @@
 import React from "react";
 import "../stylesheets/TodoListMain.css";
-import Todo from "../components/Todo";
+import ListaDeTareas from "./TodoList";
+
 const todoListMain = () => {
   return (
     <div className="tareas-lista-principal">
       <h1>Mis Tareas</h1>
-      <Todo texto='hola mundo' />
+      <ListaDeTareas />
     </div>
   );
 };
