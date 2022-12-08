@@ -5,7 +5,7 @@ const todoListMain = () => {
   return (
     <div className="tareas-lista-principal">
       <h1>Mis Tareas</h1>
-      <Todo />
+      <Todo texto='hola mundo' />
     </div>
   );
 };
